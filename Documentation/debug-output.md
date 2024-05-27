@@ -146,7 +146,7 @@ The default remains off, and the administrator is expected to grant this
 permission only temporarily while debugging a specific cell.  Note that output
 might be duplicated, if the hypervisor shares the console with the inmate.
 
-The "console" parameters of the cell's configration may always be overrided by
+The "console" parameters of the cell's configuration may always be overrided by
 inmate command line parameters.
 
 ### Parameter list
