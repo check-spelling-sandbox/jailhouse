@@ -123,7 +123,7 @@ function _jailhouse_cell_linux() {
 	if [[ "$cur" == -* ]]; then
 		COMPREPLY=( $( compgen -W "${options}" -- "${cur}") )
 	else
-		# if the previous was on of the following options
+		# if the previous was one of the following options
 		case "${prev}" in
 		-d|--dtb|-i|--initrd|-w|--write-params)
 			# search an existing file
@@ -270,7 +270,7 @@ function _jailhouse_config_create() {
 	if [[ "$cur" == -* ]]; then
 		COMPREPLY=( $( compgen -W "${options}" -- "${cur}") )
 	else
-		# if the previous was on of the following options
+		# if the previous was one of the following options
 		case "${prev}" in
 		-r|--root|-t|--template-dir)
 			# search a existing directory
