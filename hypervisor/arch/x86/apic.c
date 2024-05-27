@@ -26,7 +26,7 @@
   * Modern x86 processors are equipped with a local APIC that handles delivery
   * of external interrupts. The APIC can work in two modes:
   * - xAPIC: programmed via memory mapped I/O (MMIO)
-  * - x2APIC: programmed throughs model-specific registers (MSRs)
+  * - x2APIC: programmed through model-specific registers (MSRs)
   */
 bool using_x2apic;
 
