@@ -101,7 +101,7 @@ void inmate_main(void)
 	 *
 	 * These pattern will cover cases, where we have, e.g., both operand
 	 * prefixes (address size override prefix and operand size override
-	 * prefix), and a REX + adress size override prefix.
+	 * prefix), and a REX + address size override prefix.
 	 */
 
 	/* MOVZXB (67 48 0f b6), 8-bit data, clear bits 8-63, 32-bit address,
