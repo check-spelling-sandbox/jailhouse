@@ -65,7 +65,7 @@ function _jailhouse_get_id() {
 
 	# handle the '{ ID | [--name] NAME }'  part of cell-calls
 	#
-	# if we are at position 3 of the commnadline we can either input a
+	# if we are at position 3 of the commandline we can either input a
 	# concrete `ID`/`NAME` or the option `--name`
 	if [ "${COMP_CWORD}" -eq 3 ]; then
 		shopt -q nullglob && nullglob_set=true
