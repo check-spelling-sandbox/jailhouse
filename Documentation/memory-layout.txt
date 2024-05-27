@@ -25,7 +25,7 @@ address of this mapping is identical to the one used by the hypervisor when the
 architecture set JAILHOUSE_BORROW_ROOT_PT (currently x86 and ARM), on other,
 this addressed can differ.
 
-The commom memory region contains an array of per-CPU data structures, one for
+The common memory region contains an array of per-CPU data structures, one for
 each configured CPU. Each per-CPU data structure consists of a private part and
 a public part. The public part will remain visible for all CPUs throughout the
 hypervisor operation. The private part, however, is only visible during setup
