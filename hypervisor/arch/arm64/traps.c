@@ -150,7 +150,7 @@ static void fill_trap_context(struct trap_context *ctx, union registers *regs)
 		arm_read_sysreg(SP_EL1, ctx->sp); break;
 	case 2:
 		/* SP_EL2 is not accessible in EL2. To obtain SP value before
-		 * the excepton we can use the regs parameter. regs is located
+		 * the exception we can use the regs parameter. regs is located
 		 * on the stack (see handle_vmexit in exception.S) */
 		ctx->sp = (u64)(regs) + 16 * 16; break;
 	default:
