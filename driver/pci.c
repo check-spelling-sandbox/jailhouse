@@ -70,7 +70,7 @@ static int jailhouse_pci_stub_probe(struct pci_dev *dev,
  * @see jailhouse_pci_claim_release
  *
  * When releasing devices they will not be bound to any driver anymore and
- * from Linuxs point of view the jailhouse dummy will still look like a
+ * from Linux's point of view the jailhouse dummy will still look like a
  * valid driver. Assignment back to the original driver has to be done
  * manually.
  */
