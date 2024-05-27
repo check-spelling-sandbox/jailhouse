@@ -60,7 +60,7 @@ static int jailhouse_pci_stub_probe(struct pci_dev *dev,
  * root-cell does not use them anymore. As long as devices are assigned to
  * other cells the root-cell must not access the devices.
  * Unfortunately we cannot just use PCI hotplugging to remove/re-add
- * devices at runtime. Linux will reprogram the BARs and locate ressources
+ * devices at runtime. Linux will reprogram the BARs and locate resources
  * where we do not expect/allow them.
  * So Jailhouse acts as a PCI dummy driver and claims the devices while
  * other cells use them. When creating a cell devices will be unbound from
