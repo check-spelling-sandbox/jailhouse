@@ -175,7 +175,7 @@ int jailhouse_pci_register(void)
 }
 
 /**
- * Unegister jailhouse as a PCI device driver.
+ * Unregister jailhouse as a PCI device driver.
  */
 void jailhouse_pci_unregister(void)
 {
