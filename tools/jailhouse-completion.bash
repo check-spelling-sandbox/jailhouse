@@ -377,7 +377,7 @@ function _jailhouse() {
 			return 1;;
 		esac
 
-	# after level 2 it gets more complecated in some cases
+	# after level 2 it gets more complicated in some cases
 	else
 		command="${COMP_WORDS[1]}"
 		subcommand="${COMP_WORDS[2]}"
