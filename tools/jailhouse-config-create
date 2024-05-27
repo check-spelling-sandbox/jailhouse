@@ -102,7 +102,7 @@ def kmg_multiply_str(str):
     m = re.match(r'([0-9a-fA-FxX]+)([KMG]?)', str)
     if m is not None:
         return kmg_multiply(int(m.group(1)), m.group(2))
-    raise RuntimeError('kmg_multiply_str can not parse input "' + str + '"')
+    raise RuntimeError('kmg_multiply_str cannot parse input "' + str + '"')
 
 
 def input_readline(name, optional=False):
