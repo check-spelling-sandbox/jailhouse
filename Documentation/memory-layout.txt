@@ -116,7 +116,7 @@ Size: PAGE_SIZE * NUM_REMAP_BITMAP_PAGES * PAGE_SIZE * 8
 CPU-specific remapping region
 -----------------------------
 
-This region is differently mapped for each CPU. It consistes of a virtual
+This region is differently mapped for each CPU. It consists of a virtual
 address range that is used for temporarily mapping individual pages of the cell
 that runs on the same CPU.
 
