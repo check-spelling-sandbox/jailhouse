@@ -7,7 +7,7 @@
  * Authors:
  *  Antonios Motakis <antonios.motakis@huawei.com>
  *
- * Part of the fuctionality is derived from the AArch32 implementation, under
+ * Part of the functionality is derived from the AArch32 implementation, under
  * hypervisor/arch/arm/mmio.c by Jean-Philippe Brucker.
  *
  * This work is licensed under the terms of the GNU GPL, version 2.  See
