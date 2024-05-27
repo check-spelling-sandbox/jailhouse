@@ -149,7 +149,7 @@ static int gicv2_cpu_init(struct per_cpu *cpu_data)
 	 * - A write to GICV_CTLR.GRP0EN corresponds to the GICC_CTLR.GRP1EN bit
 	 *   Since the guest's driver thinks that it is accessing a GIC with
 	 *   security extensions, a write to GPR1EN will enable group 0
-	 *   interrups.
+	 *   interrupts.
 	 * - Group 0 interrupts are presented as virtual IRQs (FIQEn = 0)
 	 */
 	if (cell_gicc_ctlr & GICC_CTLR_GRPEN1)
@@ -234,7 +234,7 @@ static void gicv2_eoi_irq(u32 irq_id, bool deactivate)
 static int gicv2_cell_init(struct cell *cell)
 {
 	/*
-	 * Without SDEI management interrrupts, let the guest access the
+	 * Without SDEI management interrupts, let the guest access the
 	 * virtual CPU interface instead of the physical.
 	 *
 	 * WARN: some SoCs (EXYNOS4) use a modified GIC which doesn't have any
