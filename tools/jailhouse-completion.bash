@@ -331,7 +331,7 @@ function _jailhouse() {
 	prev="${COMP_WORDS[COMP_CWORD-1]}"
 
 	# command line parsing for the jailhouse-tool is pretty static right
-	# now, the first two levels can be parsed simpy by comparing
+	# now, the first two levels can be parsed simply by comparing
 	# postions
 
 	# ${COMP_CWORD} contains at which argument-position we currently are
