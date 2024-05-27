@@ -67,7 +67,7 @@ To terminate jailhouse altogether, all cells must be destroyed and then hypervis
 .RS
 \fIjailhouse disable\fR
 .sp
-This unwraps the root cell into a bare metal environment\&. The jalhouse\&.ko driver can be unloaded once Jailhouse has been disabled\&.
+This unwraps the root cell into a bare metal environment\&. The jailhouse\&.ko driver can be unloaded once Jailhouse has been disabled\&.
 .RE
 .SH "JAILHOUSE COMMANDS"
 .sp

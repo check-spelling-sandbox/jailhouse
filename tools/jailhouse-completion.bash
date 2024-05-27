@@ -330,7 +330,7 @@ function _jailhouse() {
 	cur="${COMP_WORDS[COMP_CWORD]}"
 	prev="${COMP_WORDS[COMP_CWORD-1]}"
 
-	# command line parsing for the jaihouse-tool is pretty static right
+	# command line parsing for the jailhouse-tool is pretty static right
 	# now, the first two levels can be parsed simpy by comparing
 	# postions
 
