@@ -463,7 +463,7 @@ static void amd_iommu_init_fault_nmi(void)
 	 * There is a race window in between we change fault_reporting_cpu_id
 	 * and actually reprogram the MSI. To prevent event loss, signal an
 	 * interrupt when done, so iommu_check_pending_faults() is called
-	 * upon completion even if no further NMIs due to events would occurr.
+	 * upon completion even if no further NMIs due to events would occur.
 	 *
 	 * Note we can't simply use CMD_COMPL_WAIT_INT_MASK in
 	 * amd_iommu_completion_wait(), as it seems that IOMMU either signal
