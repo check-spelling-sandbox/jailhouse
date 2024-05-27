@@ -62,7 +62,7 @@ Jailhouse enabled, then it is possible to create and terminate cells with the fo
 .fi
 .RE
 .sp
-To terminate jailhouse alltogether, all cells must be destroyed and then hypervisor itself terminated with:
+To terminate jailhouse altogether, all cells must be destroyed and then hypervisor itself terminated with:
 .sp
 .RS
 \fIjailhouse disable\fR
