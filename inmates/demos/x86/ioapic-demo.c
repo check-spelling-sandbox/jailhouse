@@ -17,7 +17,7 @@
  * other devices which will lose their IRQs when starting this cell.
  *
  * Strong recommendation: Avoid using legacy interrupt for non-root cells!
- * Many of them can't be isolated easily from other other cells - if at all.
+ * Many of them can't be isolated easily from other cells - if at all.
  */
 
 #include <inmate.h>
