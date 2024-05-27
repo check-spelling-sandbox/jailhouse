@@ -26,7 +26,7 @@ static inline unsigned long sign_extend(unsigned long val, unsigned int size)
 	return (val ^ mask) - mask;
 }
 
-/* Taken from the ARM ARM pseudocode for taking a data abort */
+/* Taken from the ARM pseudocode for taking a data abort */
 static void arch_inject_dabt(struct trap_context *ctx, unsigned long addr)
 {
 	unsigned int lr_offset;

@@ -15,7 +15,7 @@
 
 /*
  * Clean the whole data cache
- * Taken from the ARM ARM example code (B2.2.7)
+ * Taken from the ARM example code (B2.2.7)
  */
 	.global arm_dcaches_clean_by_sw
 arm_dcaches_clean_by_sw:
