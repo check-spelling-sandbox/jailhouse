@@ -60,7 +60,7 @@ def addr2line(addr):
 def print_faddr(addr):
     s = str(addr2line(addr))
     if s.find("?") != -1:
-        print("[{:#016x}] {}".format(addr, Col.bold("uknown")))
+        print("[{:#016x}] {}".format(addr, Col.bold("unknown")))
         return
     s = s.strip().split(" ")
     print("[{}] {} {}".format(s[0][:-1], Col.bold(s[1]),
