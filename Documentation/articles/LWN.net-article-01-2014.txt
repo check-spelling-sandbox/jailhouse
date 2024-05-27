@@ -62,10 +62,10 @@ Jailhouse operates in physically continuous memory region. Currently, it needs t
 
 An overall (physical) layout of Jailhouse memory region is shown at Fig. 1:
 
-    +-----------+-------------------+-----------------+------------+--------------+------+
-    | Guest RAM | hypervisor_header | Hypervisor Code | cpu_data[] | system_confg | Heap |
-    +-----------+-------------------+-----------------+------------+--------------+------+
-                |__start                              |__page_pool                       |hypervisor_header.size
+    +-----------+-------------------+-----------------+------------+---------------+------+
+    | Guest RAM | hypervisor_header | Hypervisor Code | cpu_data[] | system_config | Heap |
+    +-----------+-------------------+-----------------+------------+---------------+------+
+                |__start                              |__page_pool                        |hypervisor_header.size
 
 Fig. 1 Jailhouse physical memory layout scheme. Lowercase labels are global symbols or common function argument names.
 
