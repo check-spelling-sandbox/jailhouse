@@ -6,7 +6,7 @@ visible hypervisor memory, globally visible I/O memory remappings and CPU-
 specific remappings of hypervisor memory as well as cell memory pages.
 
 Cells are not mapped as a whole into the hypervisor address space. Only
-explicitely shared pages and pages that are temporarily mapped, e.g. during
+explicitly shared pages and pages that are temporarily mapped, e.g. during
 MMIO instruction parsing, are visible by the hypervisor during runtime.
 Furthermore, the visibility is limited to the CPU that create it because they
 are only added to the CPU-specifc mapping.
