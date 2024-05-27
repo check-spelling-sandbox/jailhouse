@@ -121,7 +121,7 @@ $ apt-get update && apt-get install -y u-boot-tools
 $ cd /p1
 $ mkimage -C none -A arm -T script -d boot.cmd boot.scr
 ```
-See more on [disccusion](https://groups.google.com/forum/#!topic/jailhouse-dev/LzyOqEHvEk0)
+See more on [discussion](https://groups.google.com/forum/#!topic/jailhouse-dev/LzyOqEHvEk0)
 about why it's `mem=932M` instead of `mem=958M`.
 
 
