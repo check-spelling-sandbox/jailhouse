@@ -29,7 +29,7 @@ void arm_cpu_reset(unsigned long pc, bool aarch32)
 	arm_write_sysreg(CNTKCTL_EL1, 0);
 	arm_write_sysreg(PMCR_EL0, 0);
 
-	/* wipe any other state to avoid leaking information accross cells */
+	/* wipe any other state to avoid leaking information across cells */
 	memset(&this_cpu_data()->guest_regs, 0, sizeof(union registers));
 
 	/* AARCH64_TODO: wipe floating point registers */
